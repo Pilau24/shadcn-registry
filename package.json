@@ -1,0 +1,13 @@
+{
+  "name": "@pilau/registry",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnx serve -l 3000 ./public",
+    "build": "shadcn build --output public/r",
+    "clean:build": "node -e \"require('node:fs').rmSync('public', { recursive: true, force: true })\" && pnpm build"
+  },
+  "devDependencies": {
+    "shadcn": "^4.21.4"
+  }
+}

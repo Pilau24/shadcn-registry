@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "inter",
+  "title": "Inter",
+  "type": "registry:font",
+  "font": {
+    "family": "'Inter', sans-serif",
+    "provider": "google",
+    "import": "Inter",
+    "variable": "--font-inter",
+    "subsets": [
+      "latin"
+    ],
+    "dependency": "@fontsource/inter"
+  }
+}

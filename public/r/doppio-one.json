@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "doppio-one",
+  "title": "Doppio One",
+  "type": "registry:font",
+  "font": {
+    "family": "'Doppio One', sans-serif",
+    "provider": "google",
+    "import": "Doppio_One",
+    "variable": "--font-doppio-one",
+    "weight": [
+      "400"
+    ],
+    "subsets": [
+      "latin"
+    ],
+    "dependency": "@fontsource/doppio-one"
+  }
+}
